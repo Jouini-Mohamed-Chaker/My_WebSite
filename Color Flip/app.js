@@ -5,7 +5,7 @@ const colors =[
 ];
 const btn = document.getElementById("btn");
 const color = document.querySelector(".color")
-let previousNumber = 0;
+let previousNumber = -1;
 btn.addEventListener("click", function(){
   let randomNumber;
   do{
@@ -18,5 +18,5 @@ btn.addEventListener("click", function(){
 })
 
 function getRandomNumber(){
-  return Math.floor(Math.random() * colors.length);
+  return Math.floor(Math.random()* colors.length);
 }

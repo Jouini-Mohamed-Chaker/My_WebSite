@@ -51,6 +51,11 @@ nav {
   text-decoration: underline;
 }
 
+.nav-links a.active{
+  font-weight: bold;
+  color: #ffd700 ;
+}
+
 /* Main Content */
 main {
   display: flex;
