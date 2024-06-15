@@ -1,0 +1,76 @@
+/* Basic reset and body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container styles */
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+/* Counter value */
+#value {
+  font-size: 2em;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Specific button styles */
+.btn.decrease {
+  background-color: #dc3545;
+}
+
+.btn.decrease:hover {
+  background-color: #c82333;
+}
+
+.btn.reset {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.btn.reset:hover {
+  background-color: #e0a800;
+}
+
+.btn.increase {
+  background-color: #28a745;
+}
+
+.btn.increase:hover {
+  background-color: #218838;
+}
